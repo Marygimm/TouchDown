@@ -21,14 +21,21 @@ struct ContentView: View {
                     .padding(.top, UIApplication.shared.window?.safeAreaInsets.top)
                     .background(Color.white)
                     .shadow(color: Color.black.opacity(0.05), radius: 5, x: 0, y: 5)
-                Spacer()
                 
-                FooterView()
-                    .padding(.horizontal)
-                    .padding(.vertical, 10)
+                ScrollView(.vertical, showsIndicators: false, content: {
+                    VStack(spacing: 0) {
+                        FeatureTabView()
+                            .frame(height: UIScreen.main.bounds.width / 1.475)
+                            .padding(.vertical, 20)
+                        FooterView()
+                            .padding(.horizontal)
+                        
+                    }//: Vstack
+                })//:Scroll
             }//:VStack
             .background(colorBackground.ignoresSafeArea(.all, edges: .all))
         }//:ZStack
+        .ignoresSafeArea(.all, edges: .top)
     }
 }
     //MARK: - Preview
