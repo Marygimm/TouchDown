@@ -12,6 +12,10 @@ let players: [Player] = Bundle.main.decode("player")
 
 let categories: [Category] = Bundle.main.decode("category")
 
+let products: [Product] = Bundle.main.decode("product")
+
+let brands: [Brand] = Bundle.main.decode("brand")
+
 //COLOR
 let colorBackground: Color = Color("ColorBackground")
 
