@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AddToCartDetailView: View {
     //MARK: - Properties
-    
+    @EnvironmentObject var shop: Shop
     
     //MARK: - Body
     var body: some View {
@@ -23,7 +23,7 @@ struct AddToCartDetailView: View {
         }
         .padding(15)
         .background(
-            Color(sampleProduct.colorRGB.cgColor!))
+            Color(shop.selectedProduct?.colorcg ?? sampleProduct.colorcg))
         .clipShape(Capsule())
     }
 }

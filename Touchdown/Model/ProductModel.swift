@@ -20,6 +20,10 @@ struct Product: Codable, Identifiable {
         return Color(red: color[0], green: color[1], blue: color[2])
     }
     
+    var colorcg: CGColor {
+        return colorRGB.cgColor ?? UIColor.white.cgColor
+    }
+    
     var formattedPrice: String {
        return "$\(price)"
     }
