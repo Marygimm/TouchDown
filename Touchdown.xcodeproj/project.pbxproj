@@ -34,6 +34,10 @@
 		573B9A46290210D900F3B5E9 /* BrandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B9A45290210D900F3B5E9 /* BrandModel.swift */; };
 		573B9A482902111500F3B5E9 /* BrandItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B9A472902111500F3B5E9 /* BrandItemView.swift */; };
 		573B9A4A2902118300F3B5E9 /* BrandGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B9A492902118300F3B5E9 /* BrandGridView.swift */; };
+		573B9A4C2902129E00F3B5E9 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B9A4B2902129E00F3B5E9 /* ProductDetailView.swift */; };
+		573B9A4E2902136300F3B5E9 /* NavigationBarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B9A4D2902136300F3B5E9 /* NavigationBarDetailView.swift */; };
+		573B9A502902A5A800F3B5E9 /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B9A4F2902A5A800F3B5E9 /* HeaderDetailView.swift */; };
+		573B9A522902A6B800F3B5E9 /* TopPartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B9A512902A6B800F3B5E9 /* TopPartDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +70,10 @@
 		573B9A45290210D900F3B5E9 /* BrandModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandModel.swift; sourceTree = "<group>"; };
 		573B9A472902111500F3B5E9 /* BrandItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandItemView.swift; sourceTree = "<group>"; };
 		573B9A492902118300F3B5E9 /* BrandGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandGridView.swift; sourceTree = "<group>"; };
+		573B9A4B2902129E00F3B5E9 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		573B9A4D2902136300F3B5E9 /* NavigationBarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarDetailView.swift; sourceTree = "<group>"; };
+		573B9A4F2902A5A800F3B5E9 /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
+		573B9A512902A6B800F3B5E9 /* TopPartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPartDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +143,7 @@
 			children = (
 				573B9A062901F9B000F3B5E9 /* TouchdownApp.swift */,
 				573B9A082901F9B000F3B5E9 /* ContentView.swift */,
+				573B9A4B2902129E00F3B5E9 /* ProductDetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -170,6 +179,9 @@
 		573B9A212901FAE700F3B5E9 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				573B9A4D2902136300F3B5E9 /* NavigationBarDetailView.swift */,
+				573B9A4F2902A5A800F3B5E9 /* HeaderDetailView.swift */,
+				573B9A512902A6B800F3B5E9 /* TopPartDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -284,11 +296,15 @@
 				573B9A2C2901FF0F00F3B5E9 /* LogoView.swift in Sources */,
 				573B9A302902047600F3B5E9 /* PlayerModel.swift in Sources */,
 				573B9A4A2902118300F3B5E9 /* BrandGridView.swift in Sources */,
+				573B9A502902A5A800F3B5E9 /* HeaderDetailView.swift in Sources */,
+				573B9A522902A6B800F3B5E9 /* TopPartDetailView.swift in Sources */,
 				573B9A282901FBD300F3B5E9 /* FooterView.swift in Sources */,
 				573B9A4029020D4000F3B5E9 /* TitleView.swift in Sources */,
+				573B9A4E2902136300F3B5E9 /* NavigationBarDetailView.swift in Sources */,
 				573B9A4429020E7100F3B5E9 /* ProductItemView.swift in Sources */,
 				573B9A072901F9B000F3B5E9 /* TouchdownApp.swift in Sources */,
 				573B9A262901FB3200F3B5E9 /* Constant.swift in Sources */,
+				573B9A4C2902129E00F3B5E9 /* ProductDetailView.swift in Sources */,
 				573B9A2A2901FDD900F3B5E9 /* NavigationBarView.swift in Sources */,
 				573B9A2E2902022A00F3B5E9 /* UIApplication+Extension.swift in Sources */,
 				573B9A34290205A900F3B5E9 /* FeatureItemView.swift in Sources */,

@@ -16,6 +16,8 @@ let products: [Product] = Bundle.main.decode("product")
 
 let brands: [Brand] = Bundle.main.decode("brand")
 
+let sampleProduct: Product = products[0]
+
 //COLOR
 let colorBackground: Color = Color("ColorBackground")
 
